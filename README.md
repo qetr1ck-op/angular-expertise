@@ -2,10 +2,11 @@
 
 ## Project structure
 
-Goal
+### Goal
+
 Follow best practice convension to get mantainable and scalable project
 
-HowTo
+### HowTo
 
 - how ngModules works
 - core
@@ -17,7 +18,7 @@ HowTo
 - automation
 - tsconfig.paths
 
-Links
+### Links
 
 - [Avoiding common confusions with modules in Angular](https://blog.angularindepth.com/avoiding-common-confusions-with-modules-in-angular-ada070e6891f)
 - [Structure example](https://github.com/viovendi/viovendi-web/blob/master/app/core/index.ts)
@@ -29,10 +30,11 @@ Links
 
 ## Code structure
 
-Goal
+### Goal
+
 Set up consistance codding rules. Only automation correction really work
 
-HowTo
+### HowTo
 
 - Barrels
 - Prettier
@@ -40,24 +42,26 @@ HowTo
 - Follow ng-styleguide
 - npm tasks with --fix
 
-Links
+### Links
+
 [Barrels](https://basarat.gitbooks.io/typescript/docs/tips/barrel.html)
 [circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)
 Tslint rules - [tslint:recommended](https://github.com/viovendi/viovendi-web/blob/develop/tslint.json#L3) - [codelyzer](https://github.com/mgechev/codelyzer) - [ordered-imports](https://palantir.github.io/tslint/rules/ordered-imports/) - [lines-between-class-members](https://eslint.org/docs/rules/lines-between-class-members) - [newline-after-var](https://eslint.org/docs/rules/newline-after-var) - [no-inferrable-types](https://palantir.github.io/tslint/rules/no-inferrable-types/) - [typedef](https://palantir.github.io/tslint/rules/typedef/)
 
 ## Sharing codebase
 
-Goal
+### Goal
+
 Main concepts to share reusable units
 
-HowTo
+### HowTo
 
 - npm-package
 - monorepos
 - microservices
 - angular-elements/web-components
 
-Links
+### Links
 
 - npm-package
   - [pros/cons](https://speakerdeck.com/manfredsteyer/architecture-for-huge-enterprise-applications-npm-packages-monorepos-and-micro-apps?slide=17)
@@ -80,10 +84,11 @@ Links
 
 ## Build and distribute the app
 
-Goal
+### Goal
+
 Achive prefererable local and production experience
 
-HowTo
+### HowTo
 
 - Consistance build with ng-cli if it's possible, extends with builders
 - Up to date versioning
@@ -91,7 +96,7 @@ HowTo
 - Rollup plan
 - Tech expert + delivery phase
 
-Links
+### Links
 
 - AOT
   - [Follow AOT rules](https://medium.com/spektrakel-blog/angular-writing-aot-friendly-applications-7b64c8afbe3f)
@@ -107,10 +112,11 @@ Links
 
 # SCV
 
-Goal
+### Goal
+
 Follow git rulles
 
-HowTo
+### HowTo
 
 - Branch flow
 - master restriction
@@ -122,7 +128,7 @@ HowTo
 - Hooks
 - Slack bot
 
-Links
+### Links
 
 - [About pull request merges](https://help.github.com/articles/about-pull-request-merges/)
 - [Why you should stop using rebase](https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1)
@@ -134,26 +140,28 @@ Links
 
 ## Debugging
 
-Goal
+### Goal
+
 Debbug ng-app and observables
 
-HowTo
+### HowTo
 
 - From ts to debbuger
 - From console.log to ng.probe
 - Logging observales flow
 
-Links
+### Links
 
 - [Seven methods for debbuging ng app](https://angularfirebase.com/lessons/methods-for-debugging-an-angular-application)
 - [Debugging Rxjs with rxjs-spy](https://blog.angularindepth.com/debugging-rxjs-4f0340286dd3)
 
 ## State management
 
-Goal
+### Goal
+
 Define the problem and pick the right tool
 
-HowTo
+### HowTo
 
 - types of state
 - state synchronization
@@ -162,12 +170,12 @@ HowTo
 - rule 1: separate state management from the rest of app
 - rule 2: optimistic updates with error handling
 - rule 3: immutable data
-- rule 4: thing about achieving a goal, is not to use Redux
+- rule 4: thing about achieving a ### goal, is not to use Redux
 - rule 5: always treat Router as the source of truth
 - ngrx/store / ngxs / akita / mobx
 - guards as resolvers
 
-Links
+### Links
 
 - [Managing state in ng app](https://blog.nrwl.io/managing-state-in-angular-applications-22b75ef5625f)
 - [Why another state management framework for Angular?](https://medium.com/@amcdnl/why-another-state-management-framework-for-angular-b4b4c19ef664)
@@ -176,10 +184,11 @@ Links
 
 ## Change detection
 
-Goal
+### Goal
+
 Know how the magic works
 
-HowTo
+### HowTo
 
 - what and why ngzone?
 - why CD is not triggered?
@@ -188,7 +197,7 @@ HowTo
 - Expression has changed after it was checked error
 - Pipes vs function call
 
-Links
+### Links
 
 - [I reverse-engineered Zones (zone.js) and here is what I’ve found](https://blog.angularindepth.com/i-reverse-engineered-zones-zone-js-and-here-is-what-ive-found-1f48dc87659b)
 - [These 5 articles will make you an Angular Change Detection expert](https://blog.angularindepth.com/these-5-articles-will-make-you-an-angular-change-detection-expert-ed530d28930)
@@ -198,10 +207,11 @@ Links
 
 ## DI
 
-Goal
+### Goal
+
 Reveal how IoC is implemented
 
-HowTo
+### HowTo
 
 - what problem IOC does it solve?
 - vanilla IOC in TS, inversifyJS
@@ -209,7 +219,7 @@ HowTo
 - InjectionToken, useClass, useFactory, useValue, NgModule.forRoot, forwardRef
 - Keep constructors simple
 
-Links
+### Links
 
 - [Dependency Injection in TypeScript](https://nehalist.io/dependency-injection-in-typescript/)
 - [Official guide](https://angular.io/guide/dependency-injection)
@@ -221,10 +231,11 @@ TODO
 
 # Unit testing
 
-Goal
+### Goal
+
 Someday it may save our asses, or not
 
-HowTo
+### HowTo
 
 - place in the project
 - structure of the spec
@@ -234,7 +245,7 @@ HowTo
 - Git prepush hooks
 - Github + CI
 
-Links
+### Links
 
 - [UT project guide](https://viovendi.atlassian.net/wiki/spaces/ENG/pages/416415905/Unit+testing+guide)
 - [Scripts](https://github.com/viovendi/viovendi-web/blob/b215f3176ff2a5e72d6bc5ef729d56ea058eec98/package.json#L34)
