@@ -44,9 +44,16 @@ Set up consistance codding rules. Only automation correction really work
 
 ### Links
 
-[Barrels](https://basarat.gitbooks.io/typescript/docs/tips/barrel.html)
-[circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)
-Tslint rules - [tslint:recommended](https://github.com/viovendi/viovendi-web/blob/develop/tslint.json#L3) - [codelyzer](https://github.com/mgechev/codelyzer) - [ordered-imports](https://palantir.github.io/tslint/rules/ordered-imports/) - [lines-between-class-members](https://eslint.org/docs/rules/lines-between-class-members) - [newline-after-var](https://eslint.org/docs/rules/newline-after-var) - [no-inferrable-types](https://palantir.github.io/tslint/rules/no-inferrable-types/) - [typedef](https://palantir.github.io/tslint/rules/typedef/)
+- [Barrels](https://basarat.gitbooks.io/typescript/docs/tips/barrel.html)
+- [circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)
+- Tslint rules
+  - [tslint:recommended](https://github.com/viovendi/viovendi-web/blob/develop/tslint.json#L3)
+  - [codelyzer](https://github.com/mgechev/codelyzer)
+  - [ordered-imports](https://palantir.github.io/tslint/rules/ordered-imports/)
+  - [lines-between-class-members](https://eslint.org/docs/rules/lines-between-class-members)
+  - [newline-after-var](https://eslint.org/docs/rules/newline-after-var)
+  - [no-inferrable-types](https://palantir.github.io/tslint/rules/no-inferrable-types/)
+  - [typedef](https://palantir.github.io/tslint/rules/typedef/)
 
 ## Sharing codebase
 
