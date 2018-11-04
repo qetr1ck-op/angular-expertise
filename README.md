@@ -41,6 +41,7 @@ Set up consistance codding rules. Only automation correction really work
 - Imports, class members, constructor injectors with tslint + eslint-rules + codelyzer
 - Follow ng-styleguide
 - npm tasks with --fix
+- transformation / serialization / deserialization of POJO into class with decorators
 
 ### Links
 
@@ -54,6 +55,7 @@ Set up consistance codding rules. Only automation correction really work
   - [newline-after-var](https://eslint.org/docs/rules/newline-after-var)
   - [no-inferrable-types](https://palantir.github.io/tslint/rules/no-inferrable-types/)
   - [typedef](https://palantir.github.io/tslint/rules/typedef/)
+- [class-transformer](https://github.com/typestack/class-transformer)
 
 ## Sharing codebase
 
