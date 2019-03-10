@@ -13,7 +13,6 @@ Follow best practice convension to get mantainable and scalable project
 - shared
 - feature
 - models
-- barrels
 - namming
 - automation
 - tsconfig.paths
