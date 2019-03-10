@@ -8,11 +8,24 @@ Follow best practice convension to get mantainable and scalable project
 
 ### HowTo
 
-- how ngModules works
+- how `ngModule`s works
+  - module encapsulation with declarables
+  - `exportsentryComponents` vs `exports`
+  - merged modules hierarchy with single root `injector` 
+  - lazy-loaded module with its own `injector`, a child of the root `injector`
+  - static methods `forRoot` (return providers for the non-lazy loaded module) and `forChild` (for lazy loaded module)
+  - module caching out of the box
 - core
+  - gather application-wide, single use components
 - shared
+  -  will contain components, directives and pipes (nor services) that may need features from another common module; for example, ngFor in CommonModule
 - feature
+  - distinct features in an application
+  - expose or hide its implementation from other modules
 - models
+  - DTO
+  - `class` alone is less code than a `class-plus-interface`
+  - `InjectionToken`
 - namming
 - automation
 - tsconfig.paths
@@ -20,7 +33,10 @@ Follow best practice convension to get mantainable and scalable project
 ### Links
 
 - [Avoiding common confusions with modules in Angular](https://blog.angularindepth.com/avoiding-common-confusions-with-modules-in-angular-ada070e6891f)
-- [Structure example](https://github.com/viovendi/viovendi-web/blob/master/app/core/index.ts)
+- [Core Modules](https://angular.io/guide/styleguide#core-feature-module)
+- [Shared Modules](https://angular.io/guide/styleguide#shared-feature-module)
+- [Feature Modules](https://angular.io/guide/styleguide#feature-modules)
+- [Structure Example](https://github.com/viovendi/viovendi-web/blob/master/app/core/index.ts)
 - [12 Things to Help Large Organizations Do Angular Right](https://blog.nrwl.io/12-things-to-help-large-organizations-do-angular-right-f261a798ad6b)
 - [Nrwl/nx](https://nrwl.io/nx)
 - [Organize Ng app](https://medium.com/@michelestieven/organizing-angular-applications-f0510761d65a)
