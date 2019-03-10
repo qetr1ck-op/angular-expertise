@@ -40,6 +40,7 @@ Follow best practice convension to get mantainable and scalable project
 - [12 Things to Help Large Organizations Do Angular Right](https://blog.nrwl.io/12-things-to-help-large-organizations-do-angular-right-f261a798ad6b)
 - [Nrwl/nx](https://nrwl.io/nx)
 - [Organize Ng app](https://medium.com/@michelestieven/organizing-angular-applications-f0510761d65a)
+- [`ng generate`](https://github.com/angular/angular-cli/blob/master/packages/angular/cli/README.md#generating-components-directives-pipes-and-services)
 - [How to use paths in tsconfig.json](https://stackoverflow.com/questions/43281741/how-to-use-paths-in-tsconfig-json)
 - [tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths)
 
