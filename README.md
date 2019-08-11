@@ -11,14 +11,14 @@ Follow best practice convension to get mantainable and scalable project
 - how `ngModule`s works
   - module encapsulation with declarables
   - `exportsentryComponents` vs `exports`
-  - merged modules hierarchy with single root `injector` 
+  - merged modules hierarchy with single root `injector`
   - lazy-loaded module with its own `injector`, a child of the root `injector`
   - static methods `forRoot` (return providers for the non-lazy loaded module) and `forChild` (for lazy loaded module)
   - module caching out of the box
 - core
   - gather application-wide, single use components
 - shared
-  -  will contain components, directives and pipes (nor services) that may need features from another common module; for example, ngFor in CommonModule
+  - will contain components, directives and pipes (nor services) that may need features from another common module; for example, ngFor in CommonModule
 - feature
   - distinct features in an application
   - expose or hide its implementation from other modules

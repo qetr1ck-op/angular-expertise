@@ -1,0 +1,85 @@
+# Level 1
+
+- Explain the main building blocks of an Angular application and their data flow
+  - components
+  - directives
+  - modules
+  - services
+  - pipes
+- Differences between component and directive
+- Structural vs attribute directives
+- What are component lifecycle hooks available?
+- What is the difference between constructor and ngOnInit?
+- What is a data binding? Available data binding types:
+  - From the Component to the DOM via interpolation and property binding
+  - From the DOM to the Component: Event binding
+  - Two-way binding
+- Invalid template expressions
+- Explain concept of metadata, as:
+  - Class decorator
+  - Property decorator
+  - Method decorator
+  - Parameter decorator
+- Scaffolding with Angular-CLI, popular commands
+- What is the purpose of async pipe?
+- What is a bootstrapping or root module?
+- The concepts of observables?
+- What is an observable?
+  - What is the difference between promise and observable?
+- What is an observer?
+- What is subscribing?
+- How to create observable? What are observable creation functions?
+- Angular Router
+  - How it works internally?
+  - Building blocks
+  - Router events
+  - How do you detect route change in Angular?
+  - Lazy loading
+  - Guards
+- What are different types of compilation in Angular? Why do we need compilation process?
+
+# Level 2
+
+- What is the purpose of common, core, feature modules?
+- What problem DI solves?
+  - How is Dependency Hierarchy formed?
+  - What are injector and child injectors
+  - Types of providers
+  - What is a DI token?
+  - @Inject and @Injectable
+  - What are the differences between AngularJS and Angular with respect to dependency injection?
+  - Tree-shakable Dependencies in Angular Projects with provideIn
+- How internally async pipe works?
+- What is the difference between pure and impure pipe?
+- How to perform error handling in observables?
+- How to perform side effect in observables?
+- Ways of listening to DOM events in Angular
+- Angular DOM manipulation techniques using: ElementRef, TemplateRef, ViewContainerRef
+- Understanding ViewChildren, ContentChildren, and QueryList
+- ng-content why and how?
+- Change detection mechanism
+  - NgZone with zone.js
+  - Triggering change detection manually in Angular
+  - OnPush Change Detection Strategy
+- Forms
+  - Template-Driven vs Reactive forms
+  - Using ControlValueAccessor to create custom form controls in Angular
+  - Nested Forms
+- Angular custom elements concepts. Build and usage process
+
+# Level 3
+
+- Dynamic templates
+- State management approaches
+  - vanilla Rxjs
+  - ngrx
+  - mobx
+- What is a service worker and its role in Angular?
+  - What are the design goals of service workers?
+- What are the advantages with AOT?
+  - What are the restrictions?
+  - What are the tree phases of AOT?
+- What is Angular Ivy?
+  - Difference between Incremental and Virtual DOM
+- What is Bazel tool?
+- Angular performance tips
